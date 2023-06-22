@@ -1,0 +1,35 @@
+[
+    {
+     "id": 1,
+     "image":"https://placeimg.com/1000/600/1",
+     "videoSrc": "/assets/seoul(720p).mp4",
+     "name" : "Display-Name-1",
+     "contents" : "Information",
+     "displayType" : "mp4", 
+     "animation" : "fade",  
+     "interval": 10000,
+     "duration" : 10
+   },
+    {
+    "id": 2,
+    "image": "https://placeimg.com/1000/600/any",
+    "videoSrc": "/assets/girl(720p).mp4",
+    "name" : "Display-Name-2",
+    "contents" : "MediaPlay",
+    "displayType" : "img",
+    "animation" : "slide",  
+    "interval": 10000,
+    "duration" : 10
+   },
+    {
+    "id": 3,
+    "image":"https://placeimg.com/1000/600/3",
+    "videoSrc": "/assets/coffee(720p).mp4",
+    "name" : "Display-Name-3",
+    "contents" : "Adverties",
+    "displayType" : "mp4",
+    "animation" : "fade",  
+    "interval": 10000,
+    "duration" : 3
+   }
+]
