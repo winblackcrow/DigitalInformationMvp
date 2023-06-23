@@ -20,6 +20,13 @@ const customer = {
        "interval": 10000,
        "duration" : 1000
   },
+  {
+    "id": 2,
+    "name" : "Layout-2",        
+    "animation" : "slide",  
+    "interval": 10000,
+    "duration" : 1000
+},
  ]
 
  
