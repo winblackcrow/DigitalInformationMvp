@@ -1,0 +1,42 @@
+[
+    {
+     "id": 1,
+     "name" : "Display-Name-1",
+     "contents" : "Information",
+     "displayType" : "img", 
+     "animation" : "fade",  
+     "interval": 10000,
+     "duration" : 10,     
+     "itemInfo" :{
+        "src":"https://placeimg.com/1280/780/1",
+        "name" : "Item-Name-1"
+      }
+    },
+    {
+     "id": 2,
+     "name" : "Display-Name-2",
+     "contents" : "Information",
+     "displayType" : "mp4", 
+     "animation" : "fade",  
+     "interval": 10000,
+     "duration" : 10,     
+     "itemInfo" :{
+        "src":"/assets/seoul(720p).mp4",
+        "name" : "Item-Name-2"
+     }
+    },
+    {
+      "id": 3,
+      "name" : "Display-Name-3",
+      "contents" : "Information",
+      "displayType" : "mp4", 
+      "animation" : "fade",  
+      "interval": 10000,
+      "duration" : 10,     
+      "itemInfo" :{
+         "src":"/assets/girl(720p).mp4",
+         "name" : "Item-Name-3"
+      }
+     }
+   
+]

@@ -1,7 +1,7 @@
 import React from "react"; 
 import Carousel from 'react-material-ui-carousel'
 import Item from './Item'
-import slider from '../helper/slider.json' 
+import slider from '../helper/slider-2.json' 
 
 
 class Display extends React.Component{
