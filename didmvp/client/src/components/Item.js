@@ -26,14 +26,7 @@ function Item({item})
                 <div className="description" style={{display:"flex", justifyContent:"center"}}>{item.name}</div>
                 
             </Grid>
-             <Grid key="2" item>
-                 {itemInfo}
-                <div className="description" style={{display:"flex", justifyContent:"center"}}>{item.name}</div>
-            </Grid>
-            <Grid key="3" item>
-                {itemInfo}
-                <div className="description" style={{display:"flex", justifyContent:"center"}}>{item.name}</div>
-            </Grid> 
+             
         </Grid>
         
     )
