@@ -11,7 +11,7 @@ const weatherValue = {
     Drizzle : "이슬비",
     Fog : "안개",
     Haze : "실안개",
-}
+};
 
 const api = {
     key : "ea6feeaf70904ed7c4e8294989ee51fe", 
@@ -31,7 +31,7 @@ class Weather extends React.Component{
  
     componentDidMount() {
         //this.timer = setInterval(this.progress,20 )
-        
+        console.log("weather");
         this.callApi()
             //  .then(res => console.log(res))
             // setState() 호출은 비동기적으로 이뤄지기 때문에 setState 호출 직후 새로운 값이 반영되지 않는다. 

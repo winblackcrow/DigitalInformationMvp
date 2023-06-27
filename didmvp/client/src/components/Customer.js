@@ -9,9 +9,10 @@ class Customer extends React.Component{
     }
 
     componentDidMount(){
-        this.callApi
-            .then(res => this.setState({customers : res}))
-            .catch(err => console.log(err));
+        // this.callApi()
+        //     .then(res => console.log(res))
+        //     // .then(res => this.setState({customers : res}))
+        //     .catch(err => console.log(err));
 
     }
 

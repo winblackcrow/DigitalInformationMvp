@@ -24,7 +24,7 @@ import Weather from './components/Weather';
  ]
 
  const callApi = async () => {
-  const response = await fetch('http://localhost:5000/api/customers');
+  const response = await fetch('/api/customers');
   const body = await response.json();
   // console.log(body);
   return body;
@@ -46,10 +46,10 @@ function App(){
       
       setCustomer(body);
     }
-    // call(); // async Function을 만들어주고 호출한다.
-    callApi()
-      .then(res => setCustomer(res))
-      .catch(err => console.log(err));
+    call(); // async Function을 만들어주고 호출한다.
+    // callApi()
+    //   .then(res => setCustomer(res))
+    //   .catch(err => console.log(err));
       
   },[]);
 
