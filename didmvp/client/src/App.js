@@ -2,6 +2,7 @@
 import './App.css';
 import Display from './components/Display';
 import Customer from './components/Customer';
+import CustomerAdd from './components/CustomerAdd';
 import InteractiveGrid from './components/InteractiveGrid';
 import { useEffect, useState } from 'react';
 import Weather from './components/Weather';
@@ -60,6 +61,7 @@ function App(){
       {layouts.map((v) => <Display key={v.id} layout={v} />)}
       <InteractiveGrid />
       {customer.map(c => {return (<Customer key={c.id} id={c.id} name ={c.name} birthday={c.birthday} gender={c.gender} job={c.job}/>)})}
+      <CustomerAdd/>
     </div>
   );
 }
